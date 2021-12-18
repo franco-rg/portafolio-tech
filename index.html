@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Portfolio (@francordg)</title>
+    <link rel="icon" href="icon/Vector.ico">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style-index.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="transition-3 hidden">
+    
+    <div class="center" id="onload">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    
+
+    <!-- btn-info-page -->
+    <div class="cont-info">
+         <button class="flex btn-info bg1 shadow"><i class='bx bx-info-circle'></i></button>
+    </div>
+
+    <!-- modal info website -->
+    <div class="flex mod container-modal-info modal-open transition-3 font-roboto">
+        <div class="flex modal__info transition-3 bg1">
+            <div class="close">
+                <small class="closeX">X</small>
+            </div>
+            <div class="cont__modal txt-center">
+                <i class='bx bx-info-circle' ></i>
+                <h2>¿Cómo se construyó este sitio web?</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Vanilla JavaScript</li>
+                    <li>Java Spring Boot</li>
+                    <li>MySQL</li>
+                </ul>
+
+                <div class="modal__process flex">
+                    <div class="cont__process">
+                        <div class="cont__process_up m-auto">
+                            <div class="number__process">
+                                <h1>1</h1>
+                            </div>
+                            <div class="time__process align-items-center">
+                                <img src="img/bx-calendar 1.svg" alt="calendar">
+                                <p>semana</p>
+                            </div>
+                        </div>
+                        <small class="letter-lg">DISEÑO</small>
+                    </div>
+    
+                    <div class="cont__process">
+                        <div class="cont__process_up m-auto">
+                            <div class="number__process">
+                                <h1>3</h1>
+                            </div>
+                            <div class="time__process align-items-center">
+                                <img src="img/bx-calendar 1.svg" alt="calendar">
+                                <p>semanas</p>
+                            </div>
+                        </div>
+                        <small class="letter-lg">ESTRUCTURA & ESTILO</small>
+                    </div>
+    
+                    <div class="cont__process">
+                        <div class="cont__process_up m-auto">
+                            <div class="number__process">
+                                <h1>2</h1>
+                            </div>
+                            <div class="time__process align-items-center">
+                                <img src="img/bx-calendar 1.svg" alt="calendar">
+                                <p>semanas</p>
+                            </div>
+                        </div>
+                        <small class="letter-lg">PROGRAMACION</small>
+                    </div>
+                </div>
+
+                <div class="flex modal__total">
+                    <div class="cont__total flex">
+                        <img src="img/time.svg" alt="time">
+                        <div class="cont__total_up">
+                            <div class="h-total flex align-items-center">
+                                <p>+</p>
+                                <h1>5</h1>
+                            </div>
+                            <p class="info__total">semanas</p>
+                        </div>
+                    </div>
+
+                    <div class="cont__total flex">
+                        <img src="img/coffe.svg" alt="time">
+                        <div class="cont__total_up">
+                            <div class="h-total flex align-items-center">
+                                <p>+</p>
+                                <h1>23</h1>
+                            </div>
+                            <p class="info__total">Tazas de café</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cont__download bg2">
+                    <div class="inner__download flex align-items-center">
+                        <a href="file/Portfolio.pdf" class="txt-decoration-none" download="Portfolio_webDesign_figma">Descargar diseño Figma (.pdf)</a>
+                        <!-- <a href="#"><img src="/img/download.svg" alt=""></a> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+        <!-- navbar -->
+        <nav class="transition-3">
+            <div class="navbar-container align-items-center m-auto w-1400 w-80">
+                
+                <div class="menu-icon bg2">
+                    <i class='bx bx-menu'></i>
+                </div>
+                <a class="logo-nav" href="#">PORTAFOLIO</a>
+
+                <div class="navbar__items flex">
+                    <a class="item-navbar-responsive txt-blue-md txt-decoration-none" href="#1">SOBRE MI</a>
+                    <a class="txt-blue-md txt-decoration-none" href="#2">EDUCACION</a>
+                    <a class="txt-blue-md txt-decoration-none" href="#3">PROYECTOS</a>
+                    <a class="item-contact txt-decoration-none" href="#4">CONTACTO</a>
+                </div>
+
+                <div class="navbar__navegation">
+                    <div class="nav__control flex bg-blue-md">
+                        <img src="img/bxs-sun.svg">
+                        <img src="img/bxs-moon.svg">
+                        <div class="btn--control-nav">
+                            <button class="btn-control"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="navbar__items_ bg2 transition-3 flex">
+            <a class="txt-blue-md txt-decoration-none" href="#1">SOBRE MI</a>
+            <a class="txt-blue-md txt-decoration-none" href="#2">EDUCACION</a>
+            <a class="txt-blue-md txt-decoration-none" href="#3">PROYECTOS</a>
+            <a class="item-contact txt-decoration-none" href="#4">CONTACTO</a>
+        </div>
+        <!-- Section 01 -->
+        <div class="container-welcome">
+            <div class="welcome__intern align-items-center w-1400 w-80">
+                <div class="welcome__text">
+                    <h1 class="title-dev">Soy <span class="typed txt-blue-md"></span></h1>
+                    <p class="parraf font-roboto textC">¡Hola! Mi nombre es Franco Rodríguez, estudiante de sistemas, apacionado por la tecnologia web, construyendo cada linea de código.
+                    </p>
+                    <a href="/file/Franco-Rodriguez-cv.pdf" class="btn-page txt-blue-md txt-decoration-none transition-3" download>DESCARGAR CV</a>
+                </div>
+                <div class="img__coding">
+                    <!-- <img src="/img/yo_2_final.png"> -->
+                    <img src="img/coder.svg">
+                </div>
+            </div>
+        </div>
+        <!-- Section 02 - AboutMe -->
+        <div class="container-aboutMe m-auto w-1400 w-80 section" id="1">
+            <div class="title-section font-roboto">
+                <h2>SOBRE <span class="txt-blue-md">MI</span></h2>
+                <p>Conóceme</p>
+            </div>
+            <div class="section-aboutMe align-items-center flex">
+                <div class="cont__info-aboutMe font-roboto textC">
+                    <p>Soy un estudiante de tecnología de 19 años. Desde 2019 me he estado capacitando para desempeñar el cargo de desarrollador frontent en la industria de la tecnología. A lo largo de estos años he ido adquiriendo conocimientos de diversas tecnologías.
+                    <br>
+                    Mi principal objetivo en estos días es crear sitios web modernos y adaptables a los cambios de la era digital.
+                    </p>
+                </div>
+
+                <div class="cont-cards__AboutMe flex font-roboto">
+                    <div class="card-left flex">
+                        <div class="card__aboutMe align-items-center bg1 shadow">
+                            <img src="img/location.svg">
+                            <p>Lima - Perú</p>
+                        </div>
+                        <div class="card__aboutMe align-items-center bg1 shadow">
+                            <img src="img/positive.svg">
+                            <p>Positivo</p>
+                        </div>
+                    </div>
+
+                    <div class="card-right flex">
+                        <div class="card__aboutMe align-items-center bg1 shadow">
+                            <img src="img/autodidact.svg">
+                            <p>Autodidacta</p>
+                        </div>
+                        <div class="card__aboutMe align-items-center bg1 shadow">
+                            <img src="img/creative.svg">
+                            <p>Creativo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Section 03 - Education -->
+        <div class="container__education w-1400 w-80 section" id="2">
+            <div class="title-section font-roboto">
+                <h2>Educaci<span class="txt-blue-md">on</span></h2>
+                <p>Preparación vocacional</p>
+            </div>
+
+            <div class="skills__education bg1 flex align-items-center m-auto font-roboto w-1400 shadow">
+                <div class="item__edu">
+                    <div class="panel-item bg2">
+                        <p class="sm-letter">HTML <br> CSS</p>
+                    </div>
+                    <desc class="item">
+                        <p>HTML & CSS</p>
+                        <p class="textC">Intermedio-Avanzado</p>
+                    </desc>
+                </div>
+                
+                <div class="item__edu">
+                    <div class="panel-item bg2">
+                        <p>J</p>
+                    </div>
+                    <desc class="item">
+                        <p>Java & Spring Framework</p>
+                        <p class="textC">Intermedio</p>
+                    </desc>
+                </div>
+
+                <div class="item__edu">
+                    <div class="panel-item bg2">
+                        <p>F</p>
+                    </div>
+                    <desc class="item">
+                        <p>Figma</p>
+                        <p class="textC">Avanzado</p>
+                    </desc>
+                </div>
+
+                <div class="item__edu">
+                    <div class="panel-item bg2">
+                        <p>JS</p>
+                    </div>
+                    <desc class="item">
+                        <p>JavaScript</p>
+                        <p class="textC">Intermedio-Avanzado</p>
+                    </desc>
+                </div>
+
+                <div class="item__edu">
+                    <div class="panel-item bg2">
+                        <p>XD</p>
+                    </div>
+                    <desc class="item">
+                        <p>Adobe XD</p>
+                        <p class="textC">Avanzado</p>
+                    </desc>
+                </div>
+
+                <div class="item__edu">
+                    <div class="panel-item bg2">
+                        <p>BD</p>
+                    </div>
+                    <desc class="item">
+                        <p>Base de Datos</p>
+                        <p class="textC">Intermedio-Avanzado</p>
+                    </desc>
+                </div>
+            </div>
+
+            <div class="flex container-cards m-auto font-roboto txt-blue-md">
+
+                <div class="card__edu bg1 shadow">
+                    <div class="card-inner__edu">
+                        <div class="progress">
+                            <p>En progreso <span class="progress-btn progress-btn-green"></span></p>
+                            <h3>UDEMY</h3>
+                            <div class="time-edu align-items-center">
+                                <img src="img/watch.svg">
+                                <p>2021 - 2022</p>
+                            </div>
+                            <ul class="textC">
+                                <li class="textC">Java</li>
+                                <li class="textC">JavaScript</li>
+                                <li class="textC">HTML & CSS</li>
+                                <li class="textC">Bootstrap 5</li>
+                                <li class="textC">Figma & Adobe XD</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-link">
+                        <a href="https://www.udemy.com/" target="_blank">
+                            <img src="img/link-icon.svg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card__edu bg1 shadow">
+                    <div class="card-inner__edu">
+                        <div class="progress">
+                            <p>En progreso <span class="progress-btn progress-btn-green"></span></p>
+                            <h3>INST. IDAT</h3>
+                            <div class="time-edu align-items-center">
+                                <img src="img/watch.svg">
+                                <p>2019 - 2022</p>
+                            </div>
+                            <ul class="textC">
+                                <li class="textC">Desarrollo de sistemas de información.<br>
+                                (Carrera Técnica)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-link">
+                        <a href="https://www.idat.edu.pe/" target="_blank">
+                            <img src="img/link-icon.svg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card__edu bg1 shadow">
+                    <div class="card-inner__edu">
+                        <div class="progress">
+                            <p>Finalizado <span class="progress-btn progress-btn-red"></span></p>
+                            <h3>CISCO</h3>
+                            <div class="time-edu align-items-center">
+                                <img src="img/watch.svg" href="https://www.cisco.com/">
+                                <p>2019</p>
+                            </div>
+                            <ul>
+                                <li class="textC">Soporte TI hardware & software.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-link">
+                        <a href="https://www.cisco.com/" target="_blank">
+                            <img src="img/link-icon.svg">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 04 - Certificates -->
+        <div class="container__certificates">
+                <div class="title-section font-roboto m-auto w-1400 w-80">
+                    <h2>Certificad<span class="txt-blue-md">os</span></h2>
+                    <p>Oficiales</p>
+                </div>
+                <div class="container-cards__certificate bg-blue-md">
+                    <div class="intern-cards__certificate">
+                        <div class="flex m-auto cards__certificates w-1400 w-80">
+                            
+                            <div class="card-cert shadow">
+                                <div class="content-card">
+                                    <img src="img/certificado-curso-ui-design.png">
+                                    <div class="flex cont-hover align-items-center transition-3">
+                                        <p class="transition-3">Diseño UI (Diseño de interfaces)</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-cert shadow">
+                                <div class="content-card">
+                                    <img src="img/cisco-cert.png">
+                                    <div class="flex cont-hover align-items-center transition-3">
+                                        <p class="transition-3">Soporte TI Esencial</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!-- Section 05 - Proyects -->
+        <div class="container__proyects section" id="3">
+            <div class="title-section font-roboto m-auto w-1400 w-80">
+                <h2>Proyect<span class="txt-blue-md">os</span></h2>
+                <p>Web software</p>
+            </div>
+            <div class="flex m-auto content-proyects w-1400 w-80">
+
+                <div class="proyect">
+                    <div class="img-proyect">
+                        <img src="img/detalove-laptop.png">
+                    </div>
+                    <div class="content-proyect">
+                        <div class="title-content-proyect">
+                            <h2>Detalove Sistema</h2>
+                            <p>2021</p>
+                        </div>
+                        
+                        <p class="font-roboto parraf-proyect textC">Una aplicacion web de ventas online diseñada, creada y pensada para una importante empresa de online de elaboracion de detalles personalizados.</p>
+                        <a class="btn-proyect" href="https://github.com/franco-rg/Sistema-Detalove" target="_blank">VER PROYECTO</a>
+                    </div>
+                </div>
+
+                <div class="proyect">
+                    <div class="img-proyect">
+                        <img src="img/padama-laptop.png">
+                    </div>
+                    <div class="content-proyect">
+                        <div class="title-content-proyect">
+                            <h2>Padama Sistema</h2>
+                            <p>2021</p>
+                        </div>
+                        <p class="font-roboto parraf-proyect textC">Sistema web de reservas y servicios hoteleros, ideal para viajantes y mochileros que lleguen a la capital de Lima Perú.</p>
+                        <a class="btn-proyect" href="https://github.com/franco-rg/Sistema-Padama" target="_blank">VER PROYECTO</a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+        <!-- Section btn-up -->
+        <span class="flex btn-up bg2"><i class="align-items-center fas fa-angle-up"></i></span>
+
+
+        <!-- Section Contact Me -->
+        <div class="container__contact-me section w-1400 m-auto w-80" id="4">
+            <div class="flex intern__contact-me align-items-center w-1400">
+                <div class="content__contact-me">
+                    <h2 class="flex">¿Te gustó mi trabajo?</h2>
+                    <div class="subtitle__contact-me textC font-roboto">
+                        <p>Charlemos un poco...</p>
+                    </div>
+                </div>
+                <button id="btnaddContact" class="btnContact btn-page transition-3">CONTÁCTAME</button>
+            </div>
+        </div>
+    
+    <!-- Section Footer -->
+    <footer>
+        <div class="flex intern-footer bg1 align-items-center m-auto">
+            <div class="logo_footer txt-center">
+                    <i class='bx bx-code-alt'></i>
+                    <p>Franco Rodriguez</p>
+            </div>
+            <div class="socials_footer">
+                    <div class="flex btn_footer">
+                        <a class="social-btn" href="https://github.com/franco-rg" target="_blank">GitHub</a>
+                        <a class="social-btn" href="mailto:francordg0@gmail.com">Correo Electronico</a>
+                        <a class="social-btn" href="https://www.linkedin.com/in/franco-daniel-rodriguez-garcia-366894211/" target="_blank">Linkedin</a>
+                    </div>
+            </div>
+        </div>
+        <p class="details-footer txt-center bg2 textC">Portafolio | Diseñado y construido por&nbsp;<span>Franco Rodriguez</span>&nbsp;© 2021</p>
+    </footer>
+    
+    <!-- modal contact-me -->
+    <div id="modalcontact" class="container-modal-contact transition-3 modal">
+        <div class="modal-contact__inner transition-3 txt-center bg1">
+            <div class="close close-contact-form">
+                <small class="close-contact">X</small>
+            </div>
+            <h2 class="contact-title">Charlemos junt<span>os</span></h2>
+            <form>
+                <div class="form__input m-auto flex">
+                    <span class="txt-blue-md">Nombre</span>
+                    <input id="txtnombre" class="bg2 textC" type="text" placeholder="Escribe tu nombre" onkeypress="return soloLetras(event)" onpaste="return false">
+                    <span id="error_nombre" class="txt-error"></span>
+                </div>
+                <div class="form__input m-auto flex">
+                    <span class="txt-blue-md">Correo Electronico</span>
+                    <input id="txtcorreo" class="bg2 textC" type="text" placeholder="Escribe tu correo electronico">
+                    <span id="error_correo" class="txt-error"></span>
+                </div>
+                <div class="form__input m-auto flex">
+                    <span class="txt-blue-md">Mensaje</span>
+                    <textarea id="txtmensaje" class="bg2 textC" type="text" placeholder="Escribe tu mensaje" rows="6" maxlength="250"></textarea>
+                    <span id="error_mensaje" class="txt-error"></span>
+                </div>
+                <br>
+                <label class="w-80" style="color: rgb(179, 179, 179)">Este formulario aún no está disponible.</label>
+                <input type="hidden" id="hddcodcontact" value="0">
+                <button id="registrar_contacto" type="button" class="btn-form flex align-items-center m-auto bg-blue-md">ENVIAR <img src="img/icon-send.svg" alt=""></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- modal send form succesfey -->
+    <div class="container-modal-ok transition-3">
+        <div class="modal-ok__inner txt-center transition-3 bg1">
+            <img src="img/check-form.svg">
+            <h2>Perfecto!</h2>
+            <p class="font-roboto">Tu mensaje ha sido enviado correctamente!
+               <br>
+               Recibirás una respuesta en un plazo de 24 horas.</p>
+            <button class="flex w-80 btn-ok m-auto bg-blue-md txt-decoration-none">ACEPTAR</button>
+            <small class="font-roboto txt-center">La respuesta será enviada por el correo electrónico proporcionado.</small>
+        </div>
+    </div>
+</body>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/portfolio.js"></script>
+    <script type="text/javascript" src="js/jQuery_v3.6.0.js"></script>
+    <script type="text/javascript" src="js/typed.js"></script>
+    <script type="text/javascript" src="js/homeTyped.js"></script>
+</html>
